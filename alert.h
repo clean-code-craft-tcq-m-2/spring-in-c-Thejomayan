@@ -1,4 +1,4 @@
-typedef void (*alerter_funcptr)(void);
+typedef void (*alerter_funcptr)();
 
 extern int emailAlertCallCount;
 extern int ledAlertCallCount;
