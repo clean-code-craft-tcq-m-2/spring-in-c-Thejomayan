@@ -1,9 +1,6 @@
 #include "stats.h"
 # include "math.h"
 
-int emailAlertCallCount = 0;
-int ledAlertCallCount = 0;
-
 Stats_t compute_statistics(const float* numberset, int setlength) {
     Stats_t s;
     s.average = 0;
