@@ -1,4 +1,4 @@
-typedef struct Stats_s
+typedef struct
 {
 	float average;
 	float min;
